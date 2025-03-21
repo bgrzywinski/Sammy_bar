@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projekt Wyszukiwarki "Sammy"
 
-## Getting Started
+## 1. Wprowadzenie
+- Opis projektu: Wyszukiwarka "Sammy" to aplikacja webowa umożliwiająca wyszukiwanie streszczeń i recenzji książek, filmów oraz artykułów
+- Cele projektu: Stworzenie prostego i intuicyjnego interfejsu do wyszukiwania informacji z wykorzystaniem modelu AI
+- Wykorzystane technologie: HTML, Tailwind CSS, JavaScript, React.js, Next.js, Node.js
 
-First, run the development server:
+## 2. Przygotowanie środowiska
+- Instalacja Node.js i npm
+- Utworzenie projektu Next.js
+- Instalacja dodatkowych zależności
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 3. Struktura projektu
+- Organizacja folderów i plików
+- Opis głównych komponentów
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 4. Interfejs użytkownika
+- Komponent SearchBar
+- Komponent LoadingAnimation
+- Komponent SearchResults
+- Strona główna (page.js)
+- Layout aplikacji
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 5. Integracja z modelem AI
+- Konfiguracja OpenAI API
+- Utworzenie pliku środowiskowego
+- Implementacja endpointu API
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 6. Stylizacja z Tailwind CSS
+- Podstawowa konfiguracja
+- Niestandardowe style
+- Responsywność
 
-## Learn More
+## 7. Testowanie aplikacji
+- Uruchomienie lokalnego serwera deweloperskiego
+- Testowanie funkcjonalności
+- Debugowanie
 
-To learn more about Next.js, take a look at the following resources:
+## 8. Wdrożenie na Vercel
+- Utworzenie konta na Vercel
+- Konfiguracja projektu
+- Dodanie zmiennych środowiskowych
+- Wdrożenie produkcyjne
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 9. Rozszerzenia projektu (przyszłe)
+- Historia wyszukiwania
+- Ulubione wyniki
+- Filtrowanie wyników
+- Udostępnianie wyników
+- Autentykacja użytkowników
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 10. Zasoby i dokumentacja
+- Linki do dokumentacji użytych technologii:
+  - [Next.js](https://nextjs.org/docs)
+  - [React](https://reactjs.org/docs/getting-started.html)
+  - [Tailwind CSS](https://tailwindcss.com/docs)
+  - [OpenAI API](https://platform.openai.com/docs/api-reference)
+  - [Vercel](https://vercel.com/docs)
